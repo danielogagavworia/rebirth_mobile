@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QT Mobile Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="UAT Test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.Android.LoginTestCase">
+        <methods>
+          <include name="Testcase_Six"/>
+          <include name="Launch_App"/>
+          <include name="Close_App"/>
+          <include name="Testcase_Five"/>
+          <include name="Testcase_Eight"/>
+          <include name="Testcase_Four"/>
+        </methods>
+      </class> <!-- testcases.Android.LoginTestCase -->
+    </classes>
+  </test> <!-- UAT Test(failed) -->
+</suite> <!-- Failed suite [QT Mobile Test Suite] -->

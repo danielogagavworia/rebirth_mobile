@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>TestNG:  UAT Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UAT Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 19 12:59:30 WAT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>568 seconds (568079 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: drowblock.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_Six()'><b>Testcase_Six</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user cannot sign in with invalid credentials</td>
+<td></td>
+<td>42</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_Five()'><b>Testcase_Five</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user cannot sign in with invalid username and valid password</td>
+<td></td>
+<td>43</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gixenmixen.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_Three()'><b>Testcase_Three</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user cannot sign in with only password</td>
+<td></td>
+<td>1</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gnail.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: g.mail.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gmeil.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gmali.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gmall.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user cannot sign in with empty credentials</td>
+<td></td>
+<td>22</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: yaoo.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: temp-mail.org</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gmai.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: sharklasers.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_Two()'><b>Testcase_Two</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using an invalid email address</td>
+<td></td>
+<td>4</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_Four()'><b>Testcase_Four</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user cannot sign in with valid username and invalid password</td>
+<td></td>
+<td>44</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: mail.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: miucce.online</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_Seven()'><b>Testcase_Seven</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user cannot sign in with invalid email address format</td>
+<td></td>
+<td>3</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: nicroric.com</td>
+<td></td>
+<td>9</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: dry3ducks.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gmain.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gmil.com</td>
+<td></td>
+<td>9</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: klovenode.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: maildrop.cc</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_Eight()'><b>Testcase_Eight</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user can sign in with valid credentials</td>
+<td></td>
+<td>24</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: gmal.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: abc.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.DisposableDomain_QTM_2874.Testcase_One()'><b>Testcase_One</b><br>Test class: testcases.Android.DisposableDomain_QTM_2874<br>Test method: Verify that user cannot sign up on quickteller using the flagged disposable email address<br>Parameters: omheightsy.com</td>
+<td></td>
+<td>8</td>
+<td>testcases.Android.DisposableDomain_QTM_2874@6dbcf214</td></tr>
+<tr>
+<td title='testcases.Android.LoginTestCase.Testcase_Two()'><b>Testcase_Two</b><br>Test class: testcases.Android.LoginTestCase<br>Test method: Verify that user cannot sign in with only username</td>
+<td></td>
+<td>0</td>
+<td>testcases.Android.LoginTestCase@59e2d8e3</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-10T08:09:11 WAT" name="Default suite" finished-at="2024-01-10T08:11:54 WAT" duration-ms="162564">
+    <groups>
+    </groups>
+    <test started-at="2024-01-10T08:09:11 WAT" name="Default test" finished-at="2024-01-10T08:11:54 WAT" duration-ms="162564">
+      <class name="testcases.Android.Login">
+        <test-method is-config="true" signature="Launch_App()[pri:0, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:09:11 WAT" name="Launch_App" finished-at="2024-01-10T08:10:00 WAT" duration-ms="48909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_App -->
+        <test-method signature="Testcase_One()[pri:1, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:10:00 WAT" name="Testcase_One" description="Validate that user cannot sign in using an unregistered email address" finished-at="2024-01-10T08:10:14 WAT" duration-ms="13613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method signature="Testcase_Two()[pri:2, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:10:14 WAT" name="Testcase_Two" description="Validate that user cannot sign in using an invalid password" finished-at="2024-01-10T08:10:27 WAT" duration-ms="12786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Two -->
+        <test-method signature="Testcase_Three()[pri:3, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:10:27 WAT" name="Testcase_Three" description="Validate that user can log in successfully" finished-at="2024-01-10T08:11:10 WAT" duration-ms="43257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Three -->
+        <test-method signature="Testcase_Four()[pri:4, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:11:10 WAT" name="Testcase_Four" description="Validate that user cannot sign in using an unregistered phonenumber" finished-at="2024-01-10T08:11:19 WAT" duration-ms="9406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Four -->
+        <test-method signature="Testcase_Five()[pri:5, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:11:19 WAT" name="Testcase_Five" description="Validate that user cannot sign in using an invalid password" finished-at="2024-01-10T08:11:31 WAT" duration-ms="11494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Five -->
+        <test-method signature="Testcase_Six()[pri:6, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:11:31 WAT" name="Testcase_Six" description="Validate that user can log in successfully" finished-at="2024-01-10T08:11:52 WAT" duration-ms="21147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Six -->
+        <test-method is-config="true" signature="Close_App()[pri:0, instance:testcases.Android.Login@139982de]" started-at="2024-01-10T08:11:52 WAT" name="Close_App" finished-at="2024-01-10T08:11:54 WAT" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+      </class> <!-- testcases.Android.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

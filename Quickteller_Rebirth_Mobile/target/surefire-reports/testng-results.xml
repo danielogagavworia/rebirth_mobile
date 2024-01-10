@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-19T12:59:30 WAT" name="QT Mobile Test Suite" finished-at="2023-10-19T13:08:58 WAT" duration-ms="568079">
+    <groups>
+    </groups>
+    <test started-at="2023-10-19T12:59:30 WAT" name="UAT Test" finished-at="2023-10-19T13:08:58 WAT" duration-ms="568079">
+      <class name="testcases.Android.DisposableDomain_QTM_2874">
+        <test-method is-config="true" signature="Launch_App()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:05 WAT" name="Launch_App" finished-at="2023-10-19T13:03:24 WAT" duration-ms="18409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_App -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:24 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:03:30 WAT" duration-ms="6136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:30 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:03:38 WAT" duration-ms="8310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:38 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:03:38 WAT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:38 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:03:44 WAT" duration-ms="6099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:44 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:03:53 WAT" duration-ms="8233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[temp-mail.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:53 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:03:53 WAT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:53 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:03:59 WAT" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:03:59 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:04:07 WAT" duration-ms="8680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[klovenode.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:07 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:04:08 WAT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:08 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:04:14 WAT" duration-ms="6133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:14 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:04:22 WAT" duration-ms="8254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[drowblock.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:22 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:04:22 WAT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:22 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:04:28 WAT" duration-ms="6084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:28 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:04:36 WAT" duration-ms="8185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gixenmixen.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:36 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:04:36 WAT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:36 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:04:42 WAT" duration-ms="6094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:42 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:04:51 WAT" duration-ms="8258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmai.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:51 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:04:51 WAT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:51 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:04:57 WAT" duration-ms="6128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:04:57 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:05:05 WAT" duration-ms="8177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmeil.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:05 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:05:05 WAT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:05 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:05:11 WAT" duration-ms="6106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:11 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:05:19 WAT" duration-ms="8077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:19 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:05:20 WAT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:20 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:05:26 WAT" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:26 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:05:34 WAT" duration-ms="8181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmali.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:34 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:05:34 WAT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:34 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:05:40 WAT" duration-ms="6113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:40 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:05:48 WAT" duration-ms="8241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g.mail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:48 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:05:48 WAT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:48 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:05:54 WAT" duration-ms="6112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:05:54 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:06:03 WAT" duration-ms="8137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmain.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:03 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:06:03 WAT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:03 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:06:09 WAT" duration-ms="6495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:09 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:06:18 WAT" duration-ms="8955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gnail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:18 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:06:18 WAT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:18 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:06:24 WAT" duration-ms="6148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:24 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:06:33 WAT" duration-ms="8564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmall.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:33 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:06:33 WAT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:33 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:06:39 WAT" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:39 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:06:47 WAT" duration-ms="8175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:47 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:06:47 WAT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:47 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:06:54 WAT" duration-ms="6107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:06:54 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:07:02 WAT" duration-ms="8527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yaoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:02 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:07:02 WAT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:02 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:07:08 WAT" duration-ms="6101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:08 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:07:18 WAT" duration-ms="9418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmil.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:18 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:07:18 WAT" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:18 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:07:24 WAT" duration-ms="6334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:24 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:07:34 WAT" duration-ms="9258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nicroric.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:34 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:07:34 WAT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:34 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:07:40 WAT" duration-ms="6094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:40 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:07:48 WAT" duration-ms="8186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maildrop.cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:48 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:07:48 WAT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:48 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:07:54 WAT" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:07:54 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:08:03 WAT" duration-ms="8490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[omheightsy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:03 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:08:03 WAT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:03 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:08:09 WAT" duration-ms="6105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:09 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:08:17 WAT" duration-ms="8142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[miucce.online]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:17 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:08:17 WAT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:17 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:08:23 WAT" duration-ms="6099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:23 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:08:31 WAT" duration-ms="8212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dry3ducks.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:31 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:08:31 WAT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:31 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:08:38 WAT" duration-ms="6135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_One(java.lang.String)[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:38 WAT" name="Testcase_One" description="Verify that user cannot sign up on quickteller using the flagged disposable email address" data-provider="flaggedDomains" finished-at="2023-10-19T13:08:46 WAT" duration-ms="8350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharklasers.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:46 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:08:46 WAT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Move_To_SignUp_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:46 WAT" name="Move_To_SignUp_Page" finished-at="2023-10-19T13:08:52 WAT" duration-ms="6116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Move_To_SignUp_Page -->
+        <test-method signature="Testcase_Two()[pri:2, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:52 WAT" name="Testcase_Two" description="Verify that user cannot sign up on quickteller using an invalid email address" finished-at="2023-10-19T13:08:56 WAT" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Two -->
+        <test-method is-config="true" signature="Return_To_Home_Page()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:56 WAT" name="Return_To_Home_Page" finished-at="2023-10-19T13:08:57 WAT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Return_To_Home_Page -->
+        <test-method is-config="true" signature="Close_App()[pri:0, instance:testcases.Android.DisposableDomain_QTM_2874@6dbcf214]" started-at="2023-10-19T13:08:57 WAT" name="Close_App" finished-at="2023-10-19T13:08:58 WAT" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+      </class> <!-- testcases.Android.DisposableDomain_QTM_2874 -->
+      <class name="testcases.Android.LoginTestCase">
+        <test-method is-config="true" signature="Launch_App()[pri:0, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T12:59:30 WAT" name="Launch_App" finished-at="2023-10-19T13:00:01 WAT" duration-ms="30971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_App -->
+        <test-method signature="Testcase_One()[pri:1, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:00:01 WAT" name="Testcase_One" description="Verify that user cannot sign in with empty credentials" finished-at="2023-10-19T13:00:23 WAT" duration-ms="22222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_One -->
+        <test-method signature="Testcase_Two()[pri:2, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:00:23 WAT" name="Testcase_Two" description="Verify that user cannot sign in with only username" finished-at="2023-10-19T13:00:24 WAT" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Two -->
+        <test-method signature="Testcase_Three()[pri:3, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:00:24 WAT" name="Testcase_Three" description="Verify that user cannot sign in with only password" finished-at="2023-10-19T13:00:26 WAT" duration-ms="1945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Three -->
+        <test-method signature="Testcase_Four()[pri:4, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:00:26 WAT" name="Testcase_Four" description="Verify that user cannot sign in with valid username and invalid password" finished-at="2023-10-19T13:01:10 WAT" duration-ms="44750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Four -->
+        <test-method signature="Testcase_Five()[pri:5, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:01:10 WAT" name="Testcase_Five" description="Verify that user cannot sign in with invalid username and valid password" finished-at="2023-10-19T13:01:54 WAT" duration-ms="43536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Five -->
+        <test-method signature="Testcase_Six()[pri:6, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:01:54 WAT" name="Testcase_Six" description="Verify that user cannot sign in with invalid credentials" finished-at="2023-10-19T13:02:37 WAT" duration-ms="42683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Six -->
+        <test-method signature="Testcase_Seven()[pri:7, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:02:37 WAT" name="Testcase_Seven" description="Verify that user cannot sign in with invalid email address format" finished-at="2023-10-19T13:02:40 WAT" duration-ms="3051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Seven -->
+        <test-method signature="Testcase_Eight()[pri:8, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:02:40 WAT" name="Testcase_Eight" description="Verify that user can sign in with valid credentials" finished-at="2023-10-19T13:03:04 WAT" duration-ms="24752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase_Eight -->
+        <test-method is-config="true" signature="Close_App()[pri:0, instance:testcases.Android.LoginTestCase@59e2d8e3]" started-at="2023-10-19T13:03:04 WAT" name="Close_App" finished-at="2023-10-19T13:03:05 WAT" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+      </class> <!-- testcases.Android.LoginTestCase -->
+    </test> <!-- UAT Test -->
+  </suite> <!-- QT Mobile Test Suite -->
+</testng-results>
